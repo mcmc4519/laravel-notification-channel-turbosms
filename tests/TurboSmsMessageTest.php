@@ -3,8 +3,8 @@
 namespace NotificationChannels\TurboSms\Test;
 
 use NotificationChannels\TurboSms\TurboSmsMessage;
-
-class TurboSmsMessageTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+class TurboSmsMessageTest extends TestCase
 {
     /** @test */
     public function it_can_accept_a_content_when_constructing_a_message()

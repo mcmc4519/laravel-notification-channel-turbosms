@@ -40,5 +40,8 @@
                 "NotificationChannels\\TurboSms\\TurboSmsServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
